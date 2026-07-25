@@ -1,0 +1,8 @@
+xcelium.*
+xrun.*
+.simvision
+waves.shm
+main
+cov_work/
+.DS_Store
+*.log
