@@ -1,0 +1,183 @@
+$date
+    Jul 25, 2026  19:09:06
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test $end
+$var reg       1 !    clk $end
+$var reg       1 "    rst_n $end
+$var reg       1 #    in $end
+$var reg       1 $    detected $end
+
+$scope module dut $end
+$var wire      1 %    clk  $end
+$var wire      1 &    rst_n  $end
+$var wire      1 '    in  $end
+$var reg       1 (    detected $end
+$var reg       2 )    state [1:0] $end
+$var reg       2 *    next_state [1:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+b0 )
+b0 *
+$end
+#5
+1!
+1%
+#10
+0!
+0%
+#15
+1!
+1"
+1&
+1%
+#20
+0!
+0%
+#25
+1!
+1%
+1#
+1'
+b1 *
+#30
+0!
+0%
+#35
+1!
+1%
+0#
+b1 )
+0'
+b10 *
+#40
+0!
+0%
+#45
+1!
+1%
+1#
+b10 )
+b0 *
+1'
+b10 *
+b11 *
+#50
+0!
+0%
+#55
+1!
+1%
+0#
+b11 )
+b1 *
+1(
+0'
+1$
+b11 *
+b10 *
+#60
+0!
+0%
+#65
+1!
+1%
+1#
+b10 )
+b0 *
+0(
+1'
+0$
+b10 *
+b11 *
+#70
+0!
+0%
+#75
+1!
+1%
+b11 )
+b1 *
+1(
+1$
+#80
+0!
+0%
+#85
+1!
+1%
+b1 )
+0(
+0$
+#90
+0!
+0%
+#95
+1!
+1%
+#100
+0!
+0%
+#105
+1!
+1%
+#110
+0!
+0%
+#115
+1!
+1%
+#120
+0!
+0%
+#125
+1!
+1%
+0#
+0'
+b10 *
+#130
+0!
+0%
+#135
+1!
+1%
+1#
+b10 )
+b0 *
+1'
+b10 *
+b11 *
+#140
+0!
+0%
+#145
+1!
+1%
+b11 )
+b1 *
+1(
+1$
+#150
+0!
+0%
+#155
+1!
