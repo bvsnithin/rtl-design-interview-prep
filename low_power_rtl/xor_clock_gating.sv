@@ -69,7 +69,7 @@ module xor_gating(
         .gated_clk(gated_clk)
     );
 
-    always_ff @(posedge gated_clk) begin
+    always_ff @(posedge gated_clk or negedge rst_n) begin
         if(!rst_n) begin
             q <= 8'h0;
         end
