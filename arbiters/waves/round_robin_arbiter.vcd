@@ -1,0 +1,109 @@
+$date
+    Jul 30, 2026  18:25:28
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test $end
+$var reg       1 !    clk $end
+$var reg       1 "    rst_n $end
+$var reg       4 #    in [3:0] $end
+$var reg       4 $    grant [3:0] $end
+$var reg       2 %    grant_index [1:0] $end
+$var reg       1 &    grant_valid $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+b0 #
+b0 $
+b0 %
+0&
+$end
+#5
+1!
+#10
+0!
+#15
+1!
+1"
+#20
+0!
+#25
+1!
+#30
+0!
+#35
+1!
+#40
+0!
+b101 #
+#45
+1!
+1&
+b1 $
+#50
+0!
+b10 #
+#55
+1!
+b1 %
+b10 $
+#60
+0!
+b1111 #
+#65
+1!
+b10 %
+b100 $
+#70
+0!
+b1000 #
+#75
+1!
+b11 %
+b1000 $
+#80
+0!
+b100 #
+#85
+1!
+b10 %
+b100 $
+#90
+0!
+b1100 #
+#95
+1!
+b11 %
+b1000 $
+#100
+0!
+b111 #
+#105
+1!
+b0 %
+b1 $
+#110
+0!
+b1001 #
+#115
+1!
+b11 %
+b1000 $
+#120
+0!
+b11 #
+#125
+1!
+b0 %
+b1 $
+#130
+0!
+b1101 #
