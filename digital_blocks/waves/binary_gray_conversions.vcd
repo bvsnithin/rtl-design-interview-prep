@@ -1,0 +1,19 @@
+$date
+    Jul 31, 2026  14:26:51
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test $end
+$var parameter 32 !    N $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b100 !
+$end
+#33
