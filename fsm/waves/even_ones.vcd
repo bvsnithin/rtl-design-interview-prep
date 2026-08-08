@@ -1,0 +1,82 @@
+$date
+    Aug  8, 2026  13:50:45
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test $end
+$var reg       1 !    clk $end
+$var reg       1 "    rst_n $end
+$var reg       1 #    in $end
+$var reg       1 $    detect $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+$end
+#5
+1!
+#10
+0!
+#15
+1!
+1"
+1$
+#20
+0!
+1#
+#25
+1!
+0$
+#30
+0!
+0#
+#35
+1!
+#40
+0!
+1#
+#45
+1!
+1$
+#50
+0!
+0#
+#55
+1!
+#60
+0!
+#65
+1!
+#70
+0!
+#75
+1!
+#80
+0!
+1#
+#85
+1!
+0$
+#90
+0!
+#95
+1!
+1$
+#100
+0!
+#105
+1!
+0$
+#110
+0!
+#115
+1!
