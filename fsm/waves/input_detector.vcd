@@ -1,0 +1,37 @@
+$date
+    Sep  5, 2026  18:26:57
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test $end
+$var reg       3 !    in [2:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+$end
+#30
+b101 !
+#40
+b10 !
+#50
+b111 !
+#60
+b0 !
+#70
+b100 !
+#90
+b111 !
+#100
+b1 !
+#110
+b11 !
+#120
+b101 !
+#135
