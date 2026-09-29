@@ -1,0 +1,33 @@
+$date
+    Sep 28, 2026  19:09:52
+$end
+$version
+    TOOL:	xmsim	22.03-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb $end
+$var parameter  2 !    GREEN $end
+$var parameter  2 "    YELLOW $end
+$var parameter  2 #    RED $end
+
+$scope module dut $end
+$var parameter  2 $    GREEN $end
+$var parameter  2 %    YELLOW $end
+$var parameter  2 &    RED $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b10 &
+b1 %
+b0 $
+b10 #
+b1 "
+b0 !
+$end
+#2240
